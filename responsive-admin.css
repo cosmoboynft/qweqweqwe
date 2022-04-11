@@ -1,0 +1,220 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*****************************************************************
+responsive-admin
+******************************************************************/
+
+@media only screen and (max-width: 1199px){
+.header_links {
+	
+	text-align: left;
+	
+	
+}
+.header_links ul li {
+	
+	padding-left: 5px;
+}
+.header_links {
+	text-align: center;
+}
+}
+
+@media only screen and (max-width: 991px){
+	
+.header_logo {
+	
+	text-align: center;
+}	
+
+.title.pt-50.mb-30 {
+	padding: 10px 0px;
+	margin: 0px;
+}.referral_link_box button {
+	display: block;
+	float: none;
+	margin: 10px auto;
+}
+.referral_link_box span {
+	display: block;
+	padding: 0 0 5px;
+	vertical-align: middle;
+	text-align: center;
+}
+.referral_link_box h3 {
+	text-align: center;
+	width: 100%;
+}
+.referral_link_box h3 input {
+	text-align: center;
+	width: 100%;
+}
+	
+.header_left {
+  text-align: center;
+}
+.header_left .breadcrumb {
+  width: 100%;
+}
+.header_right {
+  text-align: center;
+}
+.header_right h5 {
+  padding: 15px;
+}
+.admin_top_left h5 {
+  text-align: center; margin-bottom:30px;
+}
+.admin_top_right {
+  text-align: center;
+}
+.earning_withdraw{ margin-bottom:30px;}
+
+.plan_box {
+	margin-top: 25px;
+}
+}
+
+@media only screen and (max-width: 767px){
+.stats_box{ margin-bottom:30px;}
+.admin_footer h6{ text-align:center;}
+.admin_footer h6 {
+  line-height: 28px;
+}
+.payment_select ul li {
+  padding: 10px;
+}
+.admin_page_banner {
+	padding: 30px 0;
+}	
+.header_links ul li {
+	padding: 5px;
+	display:block;
+}	
+	
+.user_account h3 {
+	text-align: center;
+}
+.admin_top_links {
+	text-align: center;
+}
+.user_account h3 span {
+	text-align: left;
+}
+
+.ftr-btm-left {
+   text-align: center;
+	 padding: 20px 0px 0px 0px;
+}
+
+.ftr-btm-right {
+	text-align: center;
+	 padding: 20px 0px 0px 0px;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.stats_box ul li span{ 
+	font-size:15px;
+} 
+
+.stats_box ul li span sup{ font-size:15px;}
+
+}
+
+@media only screen and (max-width:600px){
+.package_block:after{ right:0; left:0; bottom:-7px; margin:auto; background-position:right bottom; background-size:100% auto;}
+.plans .col-xs-6 {
+	width: 100%;
+}
+.main_title h2 {
+	font-size: 21px;
+}
+}
+
+@media only screen and (max-width: 520px){
+.admin_top_right ul li {
+  padding: 20px 0;
+  width: 20%;
+}
+
+.user_detail h4 {
+  margin: 20px 0 0;
+  text-align: center;
+  width: 100%;
+}
+.user_detail {
+  text-align: center;
+}
+
+}
+
+@media only screen and (max-width: 480px){
+.deposit_method_box {
+  padding: 10px;
+}
+.ftr-btm {
+	text-align: center;
+}
+.ftr-btm .col-xs-6 {
+	width: 100%;
+}
+
+}
+
+@media only screen and (max-width: 420px){
+.stats_box ul li {
+  width: 100%; 
+}
+.stats_box ul li span{ border:none;}
+
+.stats_box ul li b {
+  text-align: center;
+}
+.earning_withdraw .col-xs-6{ width:100%; border:none;}
+.knob_value_cirle{ margin-bottom:30px;}
+.deposit_method_box h3 span {
+  line-height: 60px;
+  padding: 0;
+}
+
+}
+
+@media only screen and (max-width: 360px){
+.account_detail ul li span {
+  font-size: 14px;
+  margin: 10px 0 0;
+  text-align: center;
+  width: 100%;
+}
+.account_detail ul li {
+  text-align: center;
+}
+.table_page {
+  display: block;
+  float: none;
+  margin-top: 20px;
+}
+	.menu_block::after {
+	content: inherit;
+	display: none;
+	
+	
+}
+
+
+.user_account h3 span {
+	padding: 15px 0 0;
+	text-align: center;
+	width: 100%;
+}
+
+
+}
+
+@media only screen and (max-width: 320px){
+
+}
